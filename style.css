@@ -27,3 +27,50 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: larger;
+  border-radius: 20px;
+  width: 100%;
+  background: linear-gradient(rgb(255, 115, 115), rgb(71, 126, 255));
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+#row1-section2 {
+  background-color: lightskyblue;
+  color: white;
+  border: 1px solid red;
+  padding: 5px;
+}
+
+#row2-section2 {
+  background-color: rgb(203, 91, 91);
+  color: white;
+  border: 1px solid green;
+  padding: 5px;
+}
+
+#row2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
